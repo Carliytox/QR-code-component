@@ -14,7 +14,7 @@
 body {
   background: var(--slate-300);
   font-size: .9375rem;
-  font-family: "Outfit", sans-serif;
+  font-family: "Outfit";
   min-height: 100vh;
   align-content: center;
   line-height: 140%;
