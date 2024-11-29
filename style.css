@@ -1,35 +1,77 @@
+/* General Styles */
 body {
   font-family: 'Outfit', sans-serif;
-  background-color: #d6e2f0;
+  background-color: hsl(0, 0%, 100%); /* White */
+  color: hsl(216, 15%, 48%); /* Slate 500 */
+  font-size: 15px; /* Font size for paragraphs */
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
-}
-
-.container {
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
-  padding: 20px;
-  width: 300px;
 }
 
-.qr-card img {
+h1 {
+  color: hsl(218, 44%, 22%); /* Slate 900 */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: hsl(216, 15%, 48%); /* Slate 500 */
+  margin-bottom: 30px;
+}
+
+/* QR Card */
+.qr-card {
+  background-color: hsl(212, 45%, 89%); /* Slate 300 */
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.qr-image {
   width: 100%;
   border-radius: 10px;
 }
 
-h1 {
-  font-size: 1.5em;
-  color: #1f314f;
-  margin: 20px 0 10px;
+/* Attribution Section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 30px;
+  color: hsl(216, 15%, 48%); /* Slate 500 */
 }
 
-p {
-  font-size: 1em;
-  color: #7d889e;
-  margin: 0;
+.attribution a {
+  color: hsl(228, 45%, 44%); /* Custom color for links */
+  text-decoration: none;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 375px) {
+  .qr-card {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .qr-card {
+    padding: 25px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 17px;
+  }
 }
