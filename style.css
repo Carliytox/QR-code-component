@@ -1,90 +1,49 @@
-/* General Styles */
-:root {
-  --white: hsl(0, 0%, 100%); /* White */
-  --slate-300: hsl(212, 45%, 89%); /* Slate 300 */
-  --slate-500: hsl(216, 15%, 48%); /* Slate 500 */
-  --slate-900: hsl(218, 44%, 22%); /* Slate 900 */
-}
-
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
-  background-color: var(--white);
-  color: var(--slate-500);
-  font-size: 1rem; /* Font size for paragraphs */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: hsl(212, 45%, 89%);
   height: 100vh;
-  text-align: center;
-  line-height: 1.4;
 }
 
-h1 {
-  color: var(--slate-900);
-  font-size: 1.5rem;
-  margin-bottom: 1.25rem;
+section {
+  background-color: hsl(0, 0%, 100%);
+  width: 320px;
+  height: 499px;
+  border-radius: 20px;
+  position: relative;
+  top: 25%;
+  margin: auto;
+  padding: 16px 16px 40px 16px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+img {
+  width: 315px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+h1, p {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
 }
 
 p {
-  color: var(--slate-500);
-  margin-bottom: 1.875rem;
-}
-
-/* QR Card */
-.qr-card {
-  background-color: var(--slate-300);
-  border-radius: 1rem;
-  padding: 1.25rem;
-  max-width: 20rem;
-  width: 100%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.qr-image {
-  width: 100%;
-  border-radius: 0.625rem;
-}
-
-/* Attribution Section */
-.attribution {
-  font-size: 0.6875rem;
-  text-align: center;
-  margin-top: 1.875rem;
-  color: var(--slate-500);
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-}
-
-/* Media Queries for Responsiveness */
-@media screen and (max-width: 375px) {
-  .qr-card {
-    padding: 1rem;
-  }
-  h1 {
-    font-size: 1.125rem;
-  }
-  p {
-    font-size: 0.875rem;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .qr-card {
-    padding: 1.5rem;
-  }
-  h1 {
-    font-size: 1.75rem;
-  }
-  p {
-    font-size: 1rem;
-  }
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
 }
