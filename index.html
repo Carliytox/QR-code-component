@@ -2,29 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR Code Component</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <header>
-    <!-- Aquí podría ir un logo o un encabezado global -->
-    <h1>QR Code Component</h1>
-  </header>
 
-  <main> <!-- Asegúrate de que todo el contenido principal esté dentro del <main> -->
-    <div class="container">
-      <div class="qr-card">
-        <img src="./images/qr-code.png" alt="QR code that links to Frontend Mentor to improve front-end skills" class="qr-image">
-        <h2>Improve your front-end skills by building projects</h2>
-        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
-      </div>
-    </div>
-  </main> <!-- El contenido principal debe ir dentro de este contenedor -->
+  <h1>Improve your front-end skills by building projects</h1> <!-- Título principal -->
 
-  <footer>
-    <!-- Información adicional o derechos de autor -->
-    <p>© 2024 QR Code Component</p>
-  </footer>
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p> <!-- Descripción -->
+
+  <!-- Aquí va el código QR -->
+  <div class="qr-code">
+    <img src="./images/qr-code.png" alt="QR Code" class="qr-image"> <!-- Asegúrate de que la imagen esté en la carpeta correcta -->
+  </div>
+
+  <!-- Información adicional sobre el desafío -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/tuusuario" target="_blank">Tu Nombre</a>. <!-- Asegúrate de colocar tu enlace de GitHub -->
+  </div>
+
 </body>
 </html>
