@@ -1,0 +1,35 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #d6e2f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+}
+
+.qr-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #1f314f;
+  margin: 20px 0 10px;
+}
+
+p {
+  font-size: 1em;
+  color: #7d889e;
+  margin: 0;
+}
