@@ -17,3 +17,5 @@ jobs:
         with:
           branch: gh-pages  # Rama en la que se hará el despliegue
           folder: .         # Desplegar desde la raíz del repositorio
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Usar el secreto que creaste
