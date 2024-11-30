@@ -21,7 +21,9 @@ h1 {
 
 p {
   color: hsl(216, 15%, 48%);
-  margin: 0 0 30px;
+  font-size: 14px;
+  margin: 10px 0 20px;
+  line-height: 1.5;
 }
 
 /* QR Card */
@@ -38,13 +40,16 @@ p {
 .qr-image {
   width: 100%;
   border-radius: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: block;
 }
 
 /* Attribution Section */
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
   color: hsl(216, 15%, 48%);
 }
 
